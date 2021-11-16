@@ -273,8 +273,38 @@ header{
 
 }
 
+@media screen and (max-width:480px) {
 
-/* ------- TAMAÑO TABLET ---------- */
+.imagenesCarousel{
+    display:none !important;
+}
+
+.opacidad{
+    width: 42%;
+}
+
+.categorias__container{
+    padding-top: 31% !important;
+}
+
+#form{
+    width: 80%;
+}
+.formcontact{
+    width: 100%;
+}
+
+#message{
+    width: 100%;
+}
+
+#submit{
+    width: 100%;
+}
+}
+
+
+/* ------- TAMAÑO TABLET MINI ---------- */
 
 @media screen and (max-width:768px) {
 
