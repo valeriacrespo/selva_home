@@ -1,0 +1,123 @@
+.bg-secondary{
+    background-color:$color-principal;
+}
+
+.w-43{
+    width: 34%;
+    font-family: $letra-principal;
+}
+
+.w-49{
+    width: 33%;
+    font-family: $letra-principal;
+}
+
+.fl{
+    float: left;
+    font-family: $letra-principal;
+}
+
+.titulo{
+    font-family: $letra-principal;
+}
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+
+
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    font-weight: bold;
+    background: transparent;
+    outline: none;
+    border: transparent;
+    
+    color: #726659;
+    font-family: $letra-principal;
+    font-size: 0.875em;
+    
+    border: solid 1px $dropdown-color;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #d1cdca;
+    color: #5c5c5c;
+}
+
+.mt0{
+    margin-top: 0px!important;
+}
+
+#submit {
+    width: 470px;    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: $letra-principal;
+    font-size: 0.875em;
+    color: $color-fondo-header;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px $color-principal;
+    border-top: none;
+    background-color: $color-principal;
+}
+
+#message{
+    font-family: $letra-principal;
+    color: $color-letra-cuarto;
+    letter-spacing: 0.5px;
+    font-size: 0.875em;
+}
+
+
+.formcontact {
+    font-family: $letra-principal;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #5c5c5c;
+    
+    border: solid 1px $dropdown-color;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.btn__form{
+    opacity: 2;
+}
+
+.btn__form:hover{
+    opacity: 0.8;
+}
+
+.center-menu{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+}

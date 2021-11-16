@@ -1,0 +1,31 @@
+.container__text{
+    font-size: 3rem;
+    text-align: center;
+    background-color: $color-secundario;
+    padding: 27px;
+    font-family: $letra-secundaria;
+}
+
+.breadcrumb__container{
+    margin-top: 33px;
+    margin-left: 13px;
+}
+
+.breadcrumb-item.active {
+    color: $color-letra-cuarto;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.breadcrumb{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
+    font-family: $letra-principal;
+    margin-top: 77px;
+}
