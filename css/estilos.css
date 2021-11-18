@@ -703,9 +703,9 @@ textarea:hover {
     padding-top: 0px;
     margin-top: 0px; }
   .video {
-    height: 238px; }
+    height: 216px; }
   .container__video {
-    padding-top: 36%; }
+    padding-top: 0%; }
   .catbazar {
     width: 49% !important; }
   .parrafo {
@@ -747,7 +747,7 @@ textarea:hover {
   .carousel {
     width: 100%;
     height: auto;
-    margin-top: -18%; }
+    margin-top: -37%; }
   .carousel_container {
     width: 100%;
     margin-top: 25%; }
