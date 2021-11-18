@@ -1,3 +1,5 @@
+/*-- TAMAÑO CELU CHICO ---- */
+
 @media screen and (max-width: 320px) {
 
 * {
@@ -39,6 +41,7 @@ header{
 
 .embed-container iframe{
     padding-top: 0px;
+    margin-top:0px;
 }
 
 .video{
@@ -118,6 +121,7 @@ header{
 
 .carousel_container{
     width: 100%;
+    margin-top: 25%;
 }
 
 .imagenesCarrousel{
@@ -153,7 +157,7 @@ header{
 
 .img__rrss{
     margin-top: -30px;
-    width: 42%;
+    width: 42%!important;
     padding-top: 32px;
 }
 
@@ -271,37 +275,131 @@ header{
 
 .container__text{
     font-size: 38px;
-    padding-top: 42px;
+    padding-top: 52px;
     padding-bottom: 10px;
 }
 
 
-
 .formcontact{
-    width: 90%;
-    margin-left: 5%;
+    width: 95%!important;
+    margin-left: 16%;
 }
 
-#form{
-    width: 90%;
-    margin-left: 5%;
-}
 
 #message{
-    width: 90%; 
-    margin-left: 5%;
+    width: 95%!important; 
+    margin-left: 16%;
 }
 
 #submit{
-    width: 90%;
-    margin-left: 5%;
+    width: 95%;
+    margin-left: 16%;
 }
+
+#form{
+    margin-left: 12px;
+    width: 73%;
+}
+
+}
+
+
+/* -------- TAMAÑO IPHONE 11 ---------- */
+
+@media screen and (min-width: 414px) and (max-width: 767px){
+
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+        font-family: $letra-tercera;
+    }
+
+    .navbar-nav{
+        align-items: center;
+        background-color: $dropdown-color;
+        width: 100%;
+    }
+
+    .parrafo{
+        width: 100%;
+        margin-left: 29px;
+        margin-right: 34px;
+    }
+
+    .parrafo__titulo{
+        font-size: 29px;
+    }
+
+    .embed-container iframe{
+        margin-top: 10%;
+        height: 89%;
+    }
+    
+    .video{
+        height: 262px;
+    }
+
+
+    .imagenesCarrousel{
+        display:none !important;
+    }
+
+    .opacidad{
+    width: 41%;
+    }
+
+    .title__follow{
+        font-size: 26px;
+    }
+
+    .text__follow{
+        font-size: 13px;
+    }
+
+    .caja__menu{
+    width: 100%!important;
+    }
+
+    .btn__suscripcion{
+        margin-left: 0%;
+    }
+
+    .categorias__container{
+        padding-top: 36%;
+    }
+
+    .fotoProducto{
+        width: 89%;
+    }
+
+    .video__sabana{
+        width: 89%;
+    }
+
+    #form{
+        width: 95%!important;
+        margin-left: 19px;
+    }
+
+    .formcontact{
+        width: 95%!important;
+    }
+
+    #message{
+        width: 95%;
+    }
+
+    #submit{
+        width: 95%;
+    }
+
+
 
 }
 
 
 
 /* ------- TAMAÑO TABLET MINI ---------- */
+
 
 @media screen and (min-width:768px) and (max-width: 990px) {
 
@@ -337,6 +435,10 @@ header{
         width: 100%;
     }
 
+    .carousel_container{
+        margin-top: 27%;
+    }
+
     .categorias__container{
         padding-top: 20%;
     }
@@ -357,13 +459,25 @@ header{
         margin-left: 9%;
     }
 
-    #form{
-        margin-bottom: 20px;
-    }
 
     .form-control{
         width: 36%!important;
         margin-left: 31%;
+    }
+
+    .formcontact{
+        width: 95%!important;
+        margin-left: 19px;
+    }
+
+    #message{
+        width: 95% !important;
+        margin-left: 19px;
+    }
+
+    #submit{
+        width: 95% !important;
+        margin-left: 19px;
     }
 
 }

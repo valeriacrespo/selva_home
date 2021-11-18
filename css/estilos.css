@@ -597,12 +597,11 @@ a {
 
 #form {
   position: relative;
-  width: 500px;
+  width: 250px;
   margin: 50px auto 100px auto; }
 
 textarea {
   width: 470px;
-  max-width: 470px;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -626,8 +625,11 @@ textarea:hover {
 .mt0 {
   margin-top: 0px !important; }
 
+#form {
+  width: 50%; }
+
 #submit {
-  width: 470px;
+  width: 50%;
   padding: 0;
   margin: -5px 0px 0px 0px;
   font-family: "Work Sans", sans-serif;
@@ -640,6 +642,7 @@ textarea:hover {
   background-color: #9f836f; }
 
 #message {
+  width: 95%;
   font-family: "Work Sans", sans-serif;
   color: black;
   letter-spacing: 0.5px;
@@ -650,7 +653,7 @@ textarea:hover {
   font-weight: bold;
   letter-spacing: 0.5px;
   font-size: 0.875em;
-  width: 470px;
+  width: 95% !important;
   height: 50px;
   padding: 0px 15px 0px 15px;
   background: transparent;
@@ -674,6 +677,7 @@ textarea:hover {
   margin-left: auto;
   padding-left: 0px; }
 
+/*-- TAMAÑO CELU CHICO ---- */
 @media screen and (max-width: 320px) {
   * {
     margin: 0px;
@@ -696,7 +700,8 @@ textarea:hover {
   .logo {
     width: 100px; }
   .embed-container iframe {
-    padding-top: 0px; }
+    padding-top: 0px;
+    margin-top: 0px; }
   .video {
     height: 238px; }
   .container__video {
@@ -744,7 +749,8 @@ textarea:hover {
     height: auto;
     margin-top: -18%; }
   .carousel_container {
-    width: 100%; }
+    width: 100%;
+    margin-top: 25%; }
   .imagenesCarrousel {
     display: none !important; }
   .imagenesCarrousel {
@@ -764,7 +770,7 @@ textarea:hover {
     margin-left: 10%; }
   .img__rrss {
     margin-top: -30px;
-    width: 42%;
+    width: 42% !important;
     padding-top: 32px; }
   .col-4-sm {
     width: 31%; }
@@ -829,20 +835,68 @@ textarea:hover {
     font-size: 26px; }
   .container__text {
     font-size: 38px;
-    padding-top: 42px;
+    padding-top: 52px;
     padding-bottom: 10px; }
   .formcontact {
-    width: 90%;
-    margin-left: 5%; }
-  #form {
-    width: 90%;
-    margin-left: 5%; }
+    width: 95% !important;
+    margin-left: 16%; }
   #message {
-    width: 90%;
-    margin-left: 5%; }
+    width: 95% !important;
+    margin-left: 16%; }
   #submit {
-    width: 90%;
-    margin-left: 5%; } }
+    width: 95%;
+    margin-left: 16%; }
+  #form {
+    margin-left: 12px;
+    width: 73%; } }
+
+/* -------- TAMAÑO IPHONE 11 ---------- */
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: "Raleway", sans-serif; }
+  .navbar-nav {
+    align-items: center;
+    background-color: #b3aca7;
+    width: 100%; }
+  .parrafo {
+    width: 100%;
+    margin-left: 29px;
+    margin-right: 34px; }
+  .parrafo__titulo {
+    font-size: 29px; }
+  .embed-container iframe {
+    margin-top: 10%;
+    height: 89%; }
+  .video {
+    height: 262px; }
+  .imagenesCarrousel {
+    display: none !important; }
+  .opacidad {
+    width: 41%; }
+  .title__follow {
+    font-size: 26px; }
+  .text__follow {
+    font-size: 13px; }
+  .caja__menu {
+    width: 100% !important; }
+  .btn__suscripcion {
+    margin-left: 0%; }
+  .categorias__container {
+    padding-top: 36%; }
+  .fotoProducto {
+    width: 89%; }
+  .video__sabana {
+    width: 89%; }
+  #form {
+    width: 95% !important;
+    margin-left: 19px; }
+  .formcontact {
+    width: 95% !important; }
+  #message {
+    width: 95%; }
+  #submit {
+    width: 95%; } }
 
 /* ------- TAMAÑO TABLET MINI ---------- */
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -864,6 +918,8 @@ textarea:hover {
     align-items: center;
     background-color: #b3aca7;
     width: 100%; }
+  .carousel_container {
+    margin-top: 27%; }
   .categorias__container {
     padding-top: 20%; }
   .video__sabana {
@@ -874,11 +930,18 @@ textarea:hover {
     width: 47%; }
   .container__img {
     margin-left: 9%; }
-  #form {
-    margin-bottom: 20px; }
   .form-control {
     width: 36% !important;
-    margin-left: 31%; } }
+    margin-left: 31%; }
+  .formcontact {
+    width: 95% !important;
+    margin-left: 19px; }
+  #message {
+    width: 95% !important;
+    margin-left: 19px; }
+  #submit {
+    width: 95% !important;
+    margin-left: 19px; } }
 
 @media screen and (max-width: 991px) {
   .img__rrss {
