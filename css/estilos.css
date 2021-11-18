@@ -896,7 +896,9 @@ textarea:hover {
   #message {
     width: 95%; }
   #submit {
-    width: 95%; } }
+    width: 95%; }
+  .img__rrss {
+    width: 178px; } }
 
 /* ------- TAMAÑO TABLET MINI ---------- */
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -930,6 +932,8 @@ textarea:hover {
     width: 47%; }
   .container__img {
     margin-left: 9%; }
+  .img__rrss {
+    width: 200px; }
   .form-control {
     width: 36% !important;
     margin-left: 31%; }
