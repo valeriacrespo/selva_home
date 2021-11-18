@@ -197,7 +197,7 @@ iframe{
 
 
 .carousel{
-    background-color: #efefef;
+    background-color: $color-secundario;
     width: 100%;
     margin-top: -7%;
     margin-bottom: 0%;
@@ -232,7 +232,7 @@ iframe{
     margin-top: 55px;
     font-family: $letra-principal;
     font-size: 14px;
-    color: black;
+    color: $color-letra-cuarto;
     background-color: $color-secundario;
     text-align: justify;
     line-height: 1.5;
@@ -245,13 +245,13 @@ iframe{
     text-align:center;
     font-family: $letra-secundaria;
     font-size: 47px;
-    color: black;
+    color: $color-letra-cuarto;
 }
 
 .parrafo__texto{
     font-family: $letra-principal;
     font-size: 14px;
-    color: black;
+    color: $color-letra-cuarto;
     text-align: justify;
     line-height: 1.5;
 }
@@ -318,7 +318,7 @@ margin-top: 10px;
     display: flex;
     float: left;
     margin-top:0px;
-    background-color: #efefef;
+    background-color: $color-secundario;
 }
 
 .carousel-item {
@@ -505,7 +505,7 @@ transition: all 1s;
 }
 
 h5{
-    color: white;
+    color: $color-tercero;
     font-family: $letra-principal;
 }
 
@@ -526,7 +526,7 @@ h5{
 .btn__suscripcion{
     font-family: $letra-principal;
     margin-left: 36%;
-    background-color: black;
+    background-color: $color-letra-cuarto;
     opacity: 0.8;
     transform: scale(1.15);
 }
