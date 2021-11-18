@@ -9,6 +9,12 @@ header{
     max-width: 100%;
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-family: $letra-tercera;
+}
+
+
 .navbar-nav{
     align-items: center;
     background-color: $dropdown-color;
@@ -31,8 +37,20 @@ header{
     width: 100px;
 }
 
+.embed-container iframe{
+    padding-top: 0px;
+}
+
+.video{
+    height: 238px;
+}
+
+.container__video{
+    padding-top: 36%;
+}
+
 .catbazar{
-    width: 49%;
+    width: 49%!important;
 }
 
 .parrafo{
@@ -167,7 +185,7 @@ header{
 
 .products__container{
     width: 100%;
-    padding-left: 30px;
+    padding-left: 16px;
 }
 .breadcrumb__container{
     width: 100%;
@@ -178,7 +196,7 @@ header{
 }
 
 .fotoProducto{
-    width: 90%;
+    width: 95% !important;
 }
 
 .button__add{
@@ -186,7 +204,7 @@ header{
 }
 
 .video__sabana{
-    width: 90%;
+    width: 95%;
 }
 
 .video__sabana--item{
@@ -211,6 +229,16 @@ header{
     text-align: center;
 }
 
+.nombreProducto{
+    width: 101%;
+    font-size: 11px;
+}
+
+.precioProducto{
+    width: 101%;
+    font-size: 11px;
+}
+
 .texto__suscribite{
     width: 93%;
     margin-right:0px;
@@ -229,8 +257,8 @@ header{
     width: 100%;
 }
 
-.caja__menu{
-    width: 100%;
+#cont{
+    width: 100%!important;
 }
 
 .btn__suscripcion{
@@ -247,9 +275,7 @@ header{
     padding-bottom: 10px;
 }
 
-.title_video-item{
-    padding-left:18px;
-}
+
 
 .formcontact{
     width: 90%;
@@ -273,40 +299,16 @@ header{
 
 }
 
-@media screen and (max-width:480px) {
-
-.imagenesCarousel{
-    display:none !important;
-}
-
-.opacidad{
-    width: 42%;
-}
-
-.categorias__container{
-    padding-top: 31% !important;
-}
-
-#form{
-    width: 80%;
-}
-.formcontact{
-    width: 100%;
-}
-
-#message{
-    width: 100%;
-}
-
-#submit{
-    width: 100%;
-}
-}
 
 
 /* ------- TAMAÑO TABLET MINI ---------- */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width: 990px) {
+
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+        font-family: $letra-tercera;
+    }
 
     .imagenesCarrousel{
         display:none !important;
@@ -318,12 +320,11 @@ header{
     }
 
     .caja__menu{
-        width: 33%;
+        width: 33% !important;
     }
 
     .suscripcion{
-        width: 58%;
-        margin-left: 20%;
+        width: 100%;
     }
 
     .btn__suscripcion{
@@ -358,6 +359,19 @@ header{
 
     #form{
         margin-bottom: 20px;
+    }
+
+    .form-control{
+        width: 36%!important;
+        margin-left: 31%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .img__rrss{
+        width: 30%;
     }
 
 }

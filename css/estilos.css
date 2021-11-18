@@ -4,18 +4,6 @@
   padding: 0px; }
 
 /* ------------ HEADER ------------ */
-.pre-header {
-  background-color: #9f836f;
-  width: 100%; }
-
-.pre-header__text {
-  text-align: center;
-  font-size: 0.8rem;
-  font-family: "Work Sans", sans-serif;
-  color: white;
-  padding: 13px;
-  font-weight: bold; }
-
 header {
   margin: 0px;
   width: 100%;
@@ -416,7 +404,8 @@ iframe {
 .text__suscripcion {
   font-family: "Playfair Display", serif;
   color: white;
-  font-size: 32px; }
+  font-size: 32px;
+  text-align: center; }
 
 h5 {
   color: white;
@@ -429,7 +418,8 @@ h5 {
   width: 22%; }
 
 .form-control {
-  width: 95%; }
+  width: 76%;
+  margin-left: 13%; }
 
 .btn__suscripcion {
   font-family: "Work Sans", sans-serif;
@@ -540,7 +530,7 @@ h5 {
   margin: 0px;
   margin-top: 0.5rem;
   font-size: 15px;
-  width: 225px; }
+  width: 100%; }
 
 .fotoProducto {
   margin-bottom: 18px; }
@@ -690,6 +680,9 @@ textarea:hover {
     padding: 0px; }
   header {
     max-width: 100%; }
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: "Raleway", sans-serif; }
   .navbar-nav {
     align-items: center;
     background-color: #b3aca7;
@@ -702,8 +695,14 @@ textarea:hover {
     padding-top: 50%; }
   .logo {
     width: 100px; }
+  .embed-container iframe {
+    padding-top: 0px; }
+  .video {
+    height: 238px; }
+  .container__video {
+    padding-top: 36%; }
   .catbazar {
-    width: 49%; }
+    width: 49% !important; }
   .parrafo {
     width: 100%; }
   .parrafo__titulo {
@@ -783,17 +782,17 @@ textarea:hover {
     margin-left: -42%; }
   .products__container {
     width: 100%;
-    padding-left: 30px; }
+    padding-left: 16px; }
   .breadcrumb__container {
     width: 100%; }
   .breadcrumb {
     margin-left: 31%; }
   .fotoProducto {
-    width: 90%; }
+    width: 95% !important; }
   .button__add {
     width: 100%; }
   .video__sabana {
-    width: 90%; }
+    width: 95%; }
   .video__sabana--item {
     width: 90%; }
   .video__sabana--bazar {
@@ -806,6 +805,12 @@ textarea:hover {
     margin-top: -10px;
     width: 100%;
     text-align: center; }
+  .nombreProducto {
+    width: 101%;
+    font-size: 11px; }
+  .precioProducto {
+    width: 101%;
+    font-size: 11px; }
   .texto__suscribite {
     width: 93%;
     margin-right: 0px; }
@@ -816,8 +821,8 @@ textarea:hover {
     padding-bottom: 0px; }
   .container {
     width: 100%; }
-  .caja__menu {
-    width: 100%; }
+  #cont {
+    width: 100% !important; }
   .btn__suscripcion {
     margin-left: 0px; }
   .text__suscripcion {
@@ -826,8 +831,6 @@ textarea:hover {
     font-size: 38px;
     padding-top: 42px;
     padding-bottom: 10px; }
-  .title_video-item {
-    padding-left: 18px; }
   .formcontact {
     width: 90%;
     margin-left: 5%; }
@@ -841,34 +844,20 @@ textarea:hover {
     width: 90%;
     margin-left: 5%; } }
 
-@media screen and (max-width: 480px) {
-  .imagenesCarousel {
-    display: none !important; }
-  .opacidad {
-    width: 42%; }
-  .categorias__container {
-    padding-top: 31% !important; }
-  #form {
-    width: 80%; }
-  .formcontact {
-    width: 100%; }
-  #message {
-    width: 100%; }
-  #submit {
-    width: 100%; } }
-
 /* ------- TAMAÑO TABLET MINI ---------- */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: "Raleway", sans-serif; }
   .imagenesCarrousel {
     display: none !important; }
   .parrafo {
     width: 100%;
     margin-bottom: 20px; }
   .caja__menu {
-    width: 33%; }
+    width: 33% !important; }
   .suscripcion {
-    width: 58%;
-    margin-left: 20%; }
+    width: 100%; }
   .btn__suscripcion {
     margin-left: -3px; }
   .navbar-nav {
@@ -886,4 +875,11 @@ textarea:hover {
   .container__img {
     margin-left: 9%; }
   #form {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .form-control {
+    width: 36% !important;
+    margin-left: 31%; } }
+
+@media screen and (max-width: 991px) {
+  .img__rrss {
+    width: 30%; } }
